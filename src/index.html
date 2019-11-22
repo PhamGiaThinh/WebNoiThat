@@ -12,6 +12,30 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
+    <script>
+        $(document).ready(function() {
+
+            // -------------------- Số lượng sản phẩm -----------------------------------
+
+            $('#button-add').click(function() {
+                var numberProduct = $('.number-product').val();
+                numberProduct = parseInt(numberProduct) + 1;
+                $('.number-product').val(numberProduct);
+            })
+
+            $('#button-subtract').click(function() {
+                var numberProduct = $('.number-product').val();
+                if (parseInt(numberProduct) <= 0) {
+                    alert("Số lượng không được nhỏ hơn 0");
+                    return false;
+                }
+                numberProduct = parseInt(numberProduct) - 1;
+                $('.number-product').val(numberProduct);
+            })
+
+        });
+    </script>
+
     <!-- <script>
         function openForm() {
             document.getElementById("myForm").style.display = "block";
