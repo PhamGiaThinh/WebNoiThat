@@ -14,6 +14,11 @@ import { LoginComponent } from './login/login.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductpageComponent } from './productpage/productpage.component';
 import { AdminComponent } from './admin/admin.component';
+import { AdminProductComponent } from './admin/admin-product/admin-product.component';
+import { AdsidebarComponent } from './admin/adsidebar/adsidebar.component';
+import { AdnavbarComponent } from './admin/adnavbar/adnavbar.component';
+
+
 
 @NgModule({
   declarations: [
@@ -28,7 +33,12 @@ import { AdminComponent } from './admin/admin.component';
     LoginComponent,
     CartComponent,
     ProductpageComponent,
-    AdminComponent
+    AdminComponent,
+    AdminProductComponent,
+    AdsidebarComponent,
+    AdnavbarComponent,
+   
+    
   ],
   imports: [
     BrowserModule,

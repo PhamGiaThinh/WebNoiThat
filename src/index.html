@@ -35,7 +35,17 @@
 
         });
     </script>
-
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').toggleClass('active');
+                // if ($('#buttonClick').hasClass('glyphicon glyphicon-arrow-left'))
+                //     document.getElementById('buttonClick').className = "glyphicon glyphicon-arrow-right";
+                // else
+                //     document.getElementById('buttonClick').className = "glyphicon glyphicon-arrow-left";
+            });
+        });
+    </script>
     <!-- <script>
         function openForm() {
             document.getElementById("myForm").style.display = "block";

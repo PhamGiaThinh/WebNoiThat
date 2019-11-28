@@ -258,6 +258,10 @@ button#sidebarCollapse {
     /* float: right; */
 }
 
+a.btn.btn-primary.btn-rounded {
+    color: white;
+}
+
 
 /* ---------------------------------------------------
     MEDIAQUERIES

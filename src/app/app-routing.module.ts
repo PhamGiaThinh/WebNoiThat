@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductpageComponent } from './productpage/productpage.component';
 import { AdminComponent } from './admin/admin.component';
+import { AdminProductComponent } from './admin/admin-product/admin-product.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,8 @@ const routes: Routes = [
   {path: 'product/:product-info', component: ProductpageComponent},
   {path: 'accessory/:product-info', component: ProductpageComponent},
 
-  {path: 'admin', component: AdminComponent}
+  {path: 'admin', component: AdminComponent},
+  {path: 'admin/:adproduct', component: AdminProductComponent}
 ];
 
 @NgModule({
