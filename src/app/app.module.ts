@@ -20,6 +20,22 @@ import { AdnavbarComponent } from './admin/adnavbar/adnavbar.component';
 import { AdProductSeeComponent } from './admin/admin-product/ad-product-see/ad-product-see.component';
 import { AdProductEditComponent } from './admin/admin-product/ad-product-edit/ad-product-edit.component';
 import { AdProductAddComponent } from './admin/admin-product/ad-product-add/ad-product-add.component';
+import { AdminAccessoriesComponent } from './admin/admin-accessories/admin-accessories.component';
+import { AdAccessoriesAddComponent } from './admin/admin-accessories/ad-accessories-add/ad-accessories-add.component';
+import { AdAccessoriesEditComponent } from './admin/admin-accessories/ad-accessories-edit/ad-accessories-edit.component';
+import { AdAccessoriesSeeComponent } from './admin/admin-accessories/ad-accessories-see/ad-accessories-see.component';
+import { AdminCustomerComponent } from './admin/admin-customer/admin-customer.component';
+import { AdCustomerAddComponent } from './admin/admin-customer/ad-customer-add/ad-customer-add.component';
+import { AdCustomerSeeComponent } from './admin/admin-customer/ad-customer-see/ad-customer-see.component';
+import { AdCustomerEditComponent } from './admin/admin-customer/ad-customer-edit/ad-customer-edit.component';
+import { AdminSupplierComponent } from './admin/admin-supplier/admin-supplier.component';
+import { AdSupplierAddComponent } from './admin/admin-supplier/ad-supplier-add/ad-supplier-add.component';
+import { AdSupplierSeeComponent } from './admin/admin-supplier/ad-supplier-see/ad-supplier-see.component';
+import { AdSupplierEditComponent } from './admin/admin-supplier/ad-supplier-edit/ad-supplier-edit.component';
+import { AdminWorkerComponent } from './admin/admin-worker/admin-worker.component';
+import { AdWorkerAddComponent } from './admin/admin-worker/ad-worker-add/ad-worker-add.component';
+import { AdWorkerEditComponent } from './admin/admin-worker/ad-worker-edit/ad-worker-edit.component';
+import { AdWorkerSeeComponent } from './admin/admin-worker/ad-worker-see/ad-worker-see.component';
 
 
 
@@ -43,6 +59,22 @@ import { AdProductAddComponent } from './admin/admin-product/ad-product-add/ad-p
     AdProductSeeComponent,
     AdProductEditComponent,
     AdProductAddComponent,
+    AdminAccessoriesComponent,
+    AdAccessoriesAddComponent,
+    AdAccessoriesEditComponent,
+    AdAccessoriesSeeComponent,
+    AdminCustomerComponent,
+    AdCustomerAddComponent,
+    AdCustomerSeeComponent,
+    AdCustomerEditComponent,
+    AdminSupplierComponent,
+    AdSupplierAddComponent,
+    AdSupplierSeeComponent,
+    AdSupplierEditComponent,
+    AdminWorkerComponent,
+    AdWorkerAddComponent,
+    AdWorkerEditComponent,
+    AdWorkerSeeComponent,
    
     
   ],
