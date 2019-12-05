@@ -19,6 +19,7 @@ import { AdsidebarComponent } from './admin/adsidebar/adsidebar.component';
 import { AdnavbarComponent } from './admin/adnavbar/adnavbar.component';
 import { AdProductSeeComponent } from './admin/admin-product/ad-product-see/ad-product-see.component';
 import { AdProductEditComponent } from './admin/admin-product/ad-product-edit/ad-product-edit.component';
+import { AdProductAddComponent } from './admin/admin-product/ad-product-add/ad-product-add.component';
 
 
 
@@ -41,6 +42,7 @@ import { AdProductEditComponent } from './admin/admin-product/ad-product-edit/ad
     AdnavbarComponent,
     AdProductSeeComponent,
     AdProductEditComponent,
+    AdProductAddComponent,
    
     
   ],
