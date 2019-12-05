@@ -10,6 +10,8 @@ import { CartComponent } from './cart/cart.component';
 import { ProductpageComponent } from './productpage/productpage.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminProductComponent } from './admin/admin-product/admin-product.component';
+import { AdProductSeeComponent } from './admin/admin-product/ad-product-see/ad-product-see.component';
+import { AdProductEditComponent } from './admin/admin-product/ad-product-edit/ad-product-edit.component';
 
 
 const routes: Routes = [
@@ -24,7 +26,9 @@ const routes: Routes = [
   {path: 'accessory/:product-info', component: ProductpageComponent},
 
   {path: 'admin', component: AdminComponent},
-  {path: 'admin/:adproduct', component: AdminProductComponent}
+  {path: 'admin/:adproduct', component: AdminProductComponent},
+  {path: 'admin/:adproduct/see-adproduct', component: AdProductSeeComponent},
+  {path: 'admin/:adproduct/edit-adproduct', component: AdProductEditComponent}
 ];
 
 @NgModule({
